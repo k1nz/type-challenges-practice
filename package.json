@@ -1,0 +1,12 @@
+{
+  "name": "types-challenges-practice",
+  "version": "1.0.0",
+  "description": "types-challenges-practice",
+  "main": "index.js",
+  "repository": "https://github.com/k1nz/type-challenges-practice.git",
+  "author": "k1nz",
+  "license": "MIT",
+  "dependencies": {
+    "@type-challenges/utils": "^0.1.1"
+  }
+}
