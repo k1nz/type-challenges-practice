@@ -13,10 +13,12 @@ type test1 = TupleToObject<typeof tuple>
 // type test2 = TupleToObject<[[1, 2], {}]> // error: type must be string/number/symbol
 
 // js
+// @ts-ignore
 function TupleToObject(tuple) {
   const res = {}
   if (tuple instanceof Array) {
     tuple.forEach((e) => {
+      // @ts-ignore
       res[e] = e
     })
   }
